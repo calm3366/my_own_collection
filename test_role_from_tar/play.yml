@@ -1,0 +1,10 @@
+---
+- name: Create file and some text
+  hosts: localhost
+  collections:
+    - my_own_namespace.yandex_cloud_elk
+  roles: 
+    - role: create_file_and_some_text
+      vars:
+        path_to_file: /tmp/12.txt
+        content: "123234234"
