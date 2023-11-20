@@ -1,5 +1,0 @@
----
-- name: Create file and some text
-  hosts: all
-  roles: 
-    - create_file_and_some_text
